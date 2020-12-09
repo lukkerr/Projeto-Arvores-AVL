@@ -359,9 +359,5 @@ while True:
         print()
     elif option == 7:
         break
-    elif option == 8:
-        print(x.root)
-        print(x.length(x.root))
-        print(x.root.left)
     else:
         print('\n--- Opção Invalída ---\n')
