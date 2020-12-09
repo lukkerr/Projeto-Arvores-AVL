@@ -1,3 +1,4 @@
+#JSON usado para o melhor entendimento do Balance#
 import json
 
 class Node:
@@ -60,7 +61,7 @@ class Filme:
         return '{ '+ f'id: {self.id}, nome: "{self.nome}", ano: {self.ano}' +' }'
 
 #######################################################################
-
+#NodeList usado para ordenar por ordem alfabetica#
 class NodeList:
     def __init__(self,value):
         self.__dado = value
@@ -164,7 +165,7 @@ class Lista:
         return format
 
 #############################################################
-
+#Arvore AVL#
 class TreeAVL:
     def __init__(self):
         self.__root = None
@@ -300,6 +301,9 @@ x.insert(Filme(15,'C',2000),x.root)
 x.insert(Filme(27,'D',2001),x.root)
 x.insert(Filme(6,'E',2000),x.root)
 x.insert(Filme(4,'F',2001),x.root)
+
+#############################################################
+#Menu#
 
 while True:
     print('-------------------------------------------')
