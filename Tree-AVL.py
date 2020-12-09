@@ -230,7 +230,6 @@ class TreeAVL:
             self.em_ordem(branch.right)
 
     def rotation_right(self,branch):
-        print('right')
         aux = branch.left
         branch.left = aux.right
         aux.right = branch
